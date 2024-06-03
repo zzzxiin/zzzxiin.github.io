@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on zzz</title>
+    <link>https://zzzxiin.github.io/post/</link>
+    <description>Recent content in Posts on zzz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2024 15:37:37 +0800</lastBuildDate>
+    <atom:link href="https://zzzxiin.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of Choice of Love: Dating &amp; Chat App</title>
+      <link>https://zzzxiin.github.io/post/choice-of-love/</link>
+      <pubDate>Mon, 03 Jun 2024 15:37:37 +0800</pubDate>
+      <guid>https://zzzxiin.github.io/post/choice-of-love/</guid>
+      <description>Product introduction ”Choice of Love: Dating &amp;amp; Chat” is a highly popular dating and social networking application that provides users with a platform where they can seek new friends, establish long-term relationships, or simply find casual dates. It offers features such as profile setup, browsing and matching with other users, instant messaging, searching for nearby individuals, and more.&#xA;Affected version 4.11.3-gms&#xA;Vulnerability description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.</description>
+    </item>
+  </channel>
+</rss>
