@@ -16,6 +16,13 @@
       <description>Product introduction ”Choice of Love: Dating &amp;amp; Chat” is a highly popular dating and social networking application that provides users with a platform where they can seek new friends, establish long-term relationships, or simply find casual dates. It offers features such as profile setup, browsing and matching with other users, instant messaging, searching for nearby individuals, and more.&#xA;Affected version 4.11.3-gms&#xA;Vulnerability description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.</description>
     </item>
     <item>
+      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of Phone Cleaner: Boost &amp; Clean Android App</title>
+      <link>https://zzzxiin.github.io/post/phone-cleaner/</link>
+      <pubDate>Mon, 03 Jun 2024 15:37:37 +0800</pubDate>
+      <guid>https://zzzxiin.github.io/post/phone-cleaner/</guid>
+      <description>Product introduction Phone Cleaner: Boost &amp;amp; Clean is an app helping to analyze all the junk files, gather all useless notifications in one place and block them, sort large files into media files, audios, pictures and applications, etc.&#xA;Affected version 2.2.0&#xA;Vulnerability description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.&#xA;The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed.</description>
+    </item>
+    <item>
       <title></title>
       <link>https://zzzxiin.github.io/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
