@@ -6,8 +6,22 @@
     <description>Recent content on zzz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 16:26:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 13:20:17 +0800</lastBuildDate>
     <atom:link href="https://zzzxiin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App</title>
+      <link>https://zzzxiin.github.io/post/schlage-home/</link>
+      <pubDate>Wed, 06 Nov 2024 13:20:17 +0800</pubDate>
+      <guid>https://zzzxiin.github.io/post/schlage-home/</guid>
+      <description>Product introduction The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever.</description>
+    </item>
+    <item>
+      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;ReserveAmerica Camping&#34; App</title>
+      <link>https://zzzxiin.github.io/post/reserveamerica-camping/</link>
+      <pubDate>Wed, 06 Nov 2024 13:19:55 +0800</pubDate>
+      <guid>https://zzzxiin.github.io/post/reserveamerica-camping/</guid>
+      <description>Product introduction Use ReserveAmerica app to search on a map of states, federally available campgrounds and RV sites, yurts, cabins galore, private parks, and car camping in the U.S. Search by location, date, or amenity and display search results. View campground details, reviews and photos. Even saving your search settings makes finding your next campground as easy as opening the app.&#xA;Affected version 4.17.2.0&#xA;Vulnerability description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.</description>
+    </item>
     <item>
       <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;SMS text messaging app&#34; App</title>
       <link>https://zzzxiin.github.io/post/sms-text/</link>
