@@ -44,7 +44,7 @@
   />
 
   
-  <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App - zzz</title>
+  <title>Incorrect Access Control in the Fingerprint Authentication Mechanism - zzz</title>
 
   
   <meta name="theme-color" />
@@ -53,7 +53,8 @@
   
   
   
-  <meta name="description" content="Product introduction The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever." />
+  <meta name="description" content="Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.
+The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access." />
   <meta name="author" content="zzz" />
   
 
@@ -111,16 +112,18 @@
 
   
   
-  <meta itemprop="name" content="Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App">
-  <meta itemprop="description" content="Product introduction The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever.">
+  <meta itemprop="name" content="Incorrect Access Control in the Fingerprint Authentication Mechanism">
+  <meta itemprop="description" content="Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.
+The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.">
   <meta itemprop="datePublished" content="2024-11-06T13:20:17+08:00">
   <meta itemprop="dateModified" content="2024-11-06T13:20:17+08:00">
-  <meta itemprop="wordCount" content="465">
+  <meta itemprop="wordCount" content="355">
   
-  <meta property="og:url" content="https://zzzxiin.github.io/post/schlage-home/">
+  <meta property="og:url" content="https://zzzxiin.github.io/post/fingerprint_vuls/">
   <meta property="og:site_name" content="zzz">
-  <meta property="og:title" content="Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App">
-  <meta property="og:description" content="Product introduction The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever.">
+  <meta property="og:title" content="Incorrect Access Control in the Fingerprint Authentication Mechanism">
+  <meta property="og:description" content="Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.
+The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -130,13 +133,14 @@
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App">
-  <meta name="twitter:description" content="Product introduction The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever.">
+  <meta name="twitter:title" content="Incorrect Access Control in the Fingerprint Authentication Mechanism">
+  <meta name="twitter:description" content="Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.
+The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.">
 
   
   
   
-  <link rel="canonical" href="https://zzzxiin.github.io/post/schlage-home/" />
+  <link rel="canonical" href="https://zzzxiin.github.io/post/fingerprint_vuls/" />
   
   
 </head>
@@ -225,7 +229,7 @@
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App</h1>
+    <h1 class="!my-0 pb-2.5">Incorrect Access Control in the Fingerprint Authentication Mechanism</h1>
 
     
     <div class="text-sm antialiased opacity-60">
@@ -239,11 +243,7 @@
     
   </header>
 
-  <section><h2 id="product-introduction">Product introduction</h2>
-<p>The Schlage Home app lets you conveniently control and monitor your locks from your smartphone over a secure, encrypted connection and pair your locks with leading smart home devices. This app works with the Schlage Encode Plus™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Deadbolt, Schlage Encode™ Smart WiFi Lever and Schlage Sense® Smart Deadbolt! with Schlage Sense® Smart Deadbolt. The Schlage Home app for Apple Watch works with Schlage Encode™ Smart WiFi Deadbolt and Smart WiFi Lever. Owners of these Encode smart locks can lock and unlock and check the status of their deadbolt with the Schlage Home app for Apple Watch.</p>
-<h2 id="affected-version">Affected version</h2>
-<p>4.4.0</p>
-<h2 id="vulnerability-description">Vulnerability description</h2>
+  <section><h2 id="vulnerability-description">Vulnerability Description</h2>
 <p>The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.</p>
 <ol>
 <li>The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed.</li>
@@ -251,16 +251,17 @@
 <li>Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.</li>
 <li>Failure to verify the user’s identity when disabling the fingerprint feature, allowing the integrity of the fingerprint protection to be compromised, which can cause fingerprint protection to fail.</li>
 </ol>
-<h2 id="vulnerability-recurrence-for-the-first-item-in-the-vulnerability-description">Vulnerability recurrence (For the first item in the vulnerability description)</h2>
+<h2 id="vulnerability-recurrence">Vulnerability Recurrence</h2>
+<p>(For the first item in the vulnerability description)</p>
 <ol>
-<li>Enable fingerprint unlock feature for the “Schlage Home” app.</li>
+<li>Enable fingerprint unlock feature for the app.</li>
 <li>Run frida-server on Android device.</li>
 <li>Inject the “fingerprint-bypass.js” script using Frida, hook the fingerprint authentication function “authenticate”, and spoof the authentication result. (Partial core code as shown below)</li>
-<li>Switch to the fingerprint unlock interface of “Schlage Home”, and find that you can unlock without fingerprint authentication.</li>
+<li>Switch to the fingerprint unlock interface of the app, and find that you can unlock without fingerprint authentication.</li>
 </ol>
-<h2 id="improvement-suggestion">Improvement suggestion</h2>
+<h2 id="improvement-suggestion">Improvement Suggestion</h2>
 <ol>
-<li><strong>When using the fingerprint authentication API “authenticate”, safely set its</strong> cryptographic <strong>parameter to a pre-created key, and verify the validity of the key after users have verified their fingerprints, so as to ensure that the user is truly authenticated. (refer to *<em><a href="https://developer.android.com/training/sign-in/biometric-auth">**https://developer.android.com/training/sign-in/biometric-auth**</a>*</em> )</strong></li>
+<li>When using the fingerprint authentication API “authenticate”, safely set its cryptographic parameter to a pre-created key, and verify the validity of the key after users have verified their fingerprints, so as to ensure that the user is truly authenticated. (refer to *<em><a href="https://developer.android.com/training/sign-in/biometric-auth">**https://developer.android.com/training/sign-in/biometric-auth**</a>*</em> )</li>
 <li>It is recommended to use the latest version of the fingerprint API (BiometricPrompt) for stronger security and protection. However, this API suffers from the problem of incompatibility with Android versions below 9. If you consider the compatibility issue, you can use the library “androidx.biometric” provided by Google.</li>
 <li>Disable fingerprint authentication when a new fingerprint is recognized on the device, prompt the user when he/she performs fingerprint authentication, and require the user to complete the authentication by other means. In terms of implementation, this can be done by using the “setInvalidatedByBiometricEnrollment” API of the key used in fingerprint authentication.</li>
 <li>Verify the user’s identity when turning off the fingerprint function, and allow the user to turn off the fingerprint function only if the verification is passed.</li>
@@ -278,15 +279,15 @@
     
     <a
       class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://zzzxiin.github.io/post/fingerprint_vuls/"
-      ><span class="mr-1.5">←</span><span>Incorrect Access Control in the Fingerprint Authentication Mechanism</span></a
+      href="https://zzzxiin.github.io/post/life-personal-diary/"
+      ><span class="mr-1.5">←</span><span>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Life : Personal Diary, Journal&#34; App</span></a
     >
     
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://zzzxiin.github.io/post/reserveamerica-camping/"
-      ><span>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;ReserveAmerica Camping&#34; App</span><span class="ml-1.5">→</span></a
+      href="https://zzzxiin.github.io/post/schlage-home/"
+      ><span>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App</span><span class="ml-1.5">→</span></a
     >
     
   </nav>
