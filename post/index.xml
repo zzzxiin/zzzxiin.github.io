@@ -6,8 +6,15 @@
     <description>Recent content in Posts on zzz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2024 14:50:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2024 13:20:17 +0800</lastBuildDate>
     <atom:link href="https://zzzxiin.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism</title>
+      <link>https://zzzxiin.github.io/post/fingerprint_vuls/</link>
+      <pubDate>Thu, 28 Nov 2024 13:20:17 +0800</pubDate>
+      <guid>https://zzzxiin.github.io/post/fingerprint_vuls/</guid>
+      <description>Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.&#xA;Weak Crypto: The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. Obsolete API: This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Mishandled Updates: Failure to revalidate existing sessions when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.</description>
+    </item>
     <item>
       <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Binance: Buy Bitcoin &amp; Crypto&#34; App</title>
       <link>https://zzzxiin.github.io/post/binance/</link>
@@ -28,13 +35,6 @@
       <pubDate>Fri, 08 Nov 2024 16:02:38 +0800</pubDate>
       <guid>https://zzzxiin.github.io/post/life-personal-diary/</guid>
       <description>Product introduction A personal and secure diary app. Write your life journey and keep those memories forever. You can also write journals, notes, to do lists and your daily plans in this diary app. It is also a note keeper, you can keep your notes in this diary app. It is a pocket diary where you can express yourself. Write your secrets and feeling in this life diary. Keep your life memorable life moments and milestones in it.</description>
-    </item>
-    <item>
-      <title>Incorrect Access Control in the Fingerprint Authentication Mechanism</title>
-      <link>https://zzzxiin.github.io/post/fingerprint_vuls/</link>
-      <pubDate>Wed, 06 Nov 2024 13:20:17 +0800</pubDate>
-      <guid>https://zzzxiin.github.io/post/fingerprint_vuls/</guid>
-      <description>Vulnerability Description The following vulnerabilities exist in the implementation of the fingerprint authentication function of this app.&#xA;The cryptographic parameter in fingerprint authentication is not configured securely and correctly, resulting in fingerprint authentication that can be bypassed. This app uses a deprecated version of the API (FingerprintManager) to implement the fingerprint authentication function, which makes the fingerprint function susceptible to UI attacks. Failure to disable the fingerprint function when a new fingerprint is added to the device, allowing an attacker to pass fingerprint authentication by entering a new fingerprint, which can lead to unauthorized access.</description>
     </item>
     <item>
       <title>Incorrect Access Control in the Fingerprint Authentication Mechanism of &#34;Schlage Home&#34; App</title>
